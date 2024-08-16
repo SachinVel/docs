@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Geo EPIC",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:velsachin98@gmail.com"
     }
   ],
   "topbarCtaButton": {
@@ -27,59 +27,47 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "User Guide",
+      "url": "user-guide"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Quick Start",
+      "url": "quick-start"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "API",
+      "url": "api"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "epic"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "User Guide",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "user-guide/csb",
+        "user-guide/opc",
+        "user-guide/soil",
+        "user-guide/weather"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Quick Start",
       "pages": [
-        "api-reference/introduction"
+        "quick-start/cal",
+        "quick-start/runepic",
+        "quick-start/runexp"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "API",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api/api"
       ]
     }
   ],

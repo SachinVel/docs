@@ -1,71 +1,26 @@
 ---
 title: Introduction
-description: 'Welcome to the home of your new documentation'
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
-/>
+<img src="./assets/Yield_MD.png" alt="Maryland_Yield" width="90%"/>
 
-## Setting up
+## Overview
 
-The first step to world-class documentation is setting up your editing environments.
+This package expands the capabilities of the **EPIC crop simulation model**, to simulate crop growth and development across large geographies, such as entire states or counties by leveraging openly availabe remote sensing products and geospatial databases. Additionally, the toolkit features a unique calibration module that allows fine-tuning of model parameters to reflect specific local conditions or experimental results. This toolkit allows researchers to assess crop production potential, management scenarios and risks at broader scales, informing decision-making for sustainable agricultural practices.
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
+## Installation
 
-## Make it yours
+Before starting the setup, ensure you have [wget](https://cloudcone.com/docs/article/the-linux-wget-command/) and [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) installed. <br /> Follow the links for corresponding installation guides.
 
-Update your docs to your brand and add valuable content for the best user conversion.
+Setup a Virtual environment. (conda Recommended)
 
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
-  </Card>
-</CardGroup>
+```
+conda create --name epic_env python=3.9
+conda activate epic_env
+```
+Install the Geo-Epic Toolkit
+```
+pip install git+https://github.com/smarsGroup/geo-epic.git
+```
+
+Refer to the user guide and quick start tutorials to understand the Geo-Epic simulation workflow.
